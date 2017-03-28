@@ -1,0 +1,94 @@
+body {
+  /*background-color: grey;*/
+  font-family: Maven Pro;
+  background-color: #83d0c9;
+}
+.navigation {
+  float:left;
+  text-align: center;
+  background-color: #b3ecec;
+  border: solid black 10px;
+  padding: 10px;
+  margin: 10px;
+  display: inline-block;
+}
+nav::after {
+  content: " ";
+  display: block;
+  clear: both;
+}
+#mainContent {
+  width: 1200px;
+  margin: auto;
+  padding: 20px;
+}
+#mainContent::after {
+  content:"  ";
+  display: table;
+  clear: both;
+}
+#colin {
+  background-color: #b3ecec;
+  border: solid black 15px;
+  padding: 10px;
+  width: 500px;
+  float:left;
+  margin-left: 20px;
+
+}
+
+#brady {
+  background-color: #b3ecec;
+  border: solid black 15px;
+  padding: 10px;
+  width: 500px;
+  float:right;
+  margin-right: 20px;
+}
+
+h1 {
+  font-family: Revalia;
+  color:red;
+  text-align: center;
+  font-size: 50px;
+  margin-bottom:80px;
+}
+h2 {
+  text-align: center;
+  color:red;
+}
+p:first-letter {
+  font-size: 25px;
+  color:red;
+}
+.animal{
+    width:200px; /* you can use % */
+    height: 200px;
+    display:block;
+    margin:auto;
+}
+a:hover {
+  color: green;
+}
+table {
+  margin: auto;
+  height: 150px;
+  width: 800px;
+  border: solid black 2px;
+  border-collapse: collapse;
+  background-color: #b3ecec;
+}
+th {
+  font-weight: 2000;
+  font-size: 20px;
+  border: solid black 1px;
+  border-collapse: collapse;
+}
+td {
+  border: solid black 1px;
+  border-collapse: collapse;
+  text-align: center;
+}
+tr:hover {
+  background-color: #DAA520;
+}
